@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+
+    .cara, .foguete, futter img{
+        display: none;
+    }
+
+    input, button{
+        width: 100%;
+    }
+
+    .menu{
+        width: 100%;
+    }
+    .lupa{
+        margin-right: -90px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    header .menu{
+        width: 112%;
+        padding-left: 79px;
+        text-align: center;
+        
+    }
+
+    .lupa {
+        width: 15%;
+        padding-top: 50px;
+        margin-right: 125px;
+    }
+
+    .corpo h1, h2, h6{
+        width: 100%;
+        text-align: center;
+    }
+
+    .corpo input{
+        width: 100%;
+        text-align: center
+    }
+
+    .corpo button{
+        width: 100%;
+        text-align: center;
+    }
+
+    .foguete{
+        display: none;
+    }
+
+    .cara{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}

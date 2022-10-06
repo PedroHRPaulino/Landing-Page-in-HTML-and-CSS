@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;600;700;800;900&display=swap');
+
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #20364b;
+    font-family: 'Poppins', sans-serif; ;
+}
+
+.Logo{
+    width: 214px;
+    padding: 25px;
+    margin-top: 9px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.menu{
+    float: right;
+    width: 55%;
+    padding-top: 34px;
+}
+
+.menu li, a{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.menu a{
+    padding: 27px;
+}
+
+.home:hover{
+    font-weight: bold;
+}
+
+.services:hover{
+    font-weight: bold;
+}
+
+.about:hover{
+    font-weight: bold;
+}
+
+.blog:hover{
+    font-weight: bold;
+}
+
+.faq:hover{
+    font-weight: bold;
+}
+
+.lupa{
+    width: 70px;
+    float: right;
+    margin-top: -45px;
+    margin-right: 63px;
+}
+
+.corpo{
+    margin-top: 60px;
+    margin-left: 68px;
+}
+
+.foguete img{
+    width: 60px;
+    margin-right: 538px;
+    float: right;
+    margin-top: -394px;
+}
+
+.msg img{
+    width: 60px;
+    margin-right: 720px;
+    float: right;
+    margin-top: -40px;
+}
+
+.cara img{
+    width: 620px;
+    float: right;
+    margin-top: -472px;
+    margin-right: 72px;
+}
+
+footer img{
+    width: 60px;
+    float: right;
+    margin-top: -12px;
+    margin-right: -620px;
+}
+
+.corpo h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:800 ;
+    color: #fdc11f;
+}
+
+.corpo h2{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: -22px;
+}
+
+.corpo .inputs{
+    padding-top: 30px;
+}
+
+input{
+    padding: 14px;
+    border-radius: 20px;
+    width: 25%;
+    border: none;
+    margin: 30px 0px;
+    margin-top: -5px;
+}
+
+.corpo h6{
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+button{
+    background-color: #fdc11f;
+    color: #20364b;
+    border: none;
+    border-radius: 25px;
+    width: 8%;
+    padding: 8px 8px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
